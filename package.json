@@ -1,0 +1,29 @@
+{
+  "name": "kernel-network-test",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@zerodev/ecdsa-validator": "^5.4.0",
+    "@zerodev/permissions": "^5.5.0",
+    "@zerodev/sdk": "^5.4.3",
+    "@zerodev/webauthn-key": "^5.4.0",
+    "dotenv": "^16.0.3",
+    "permissionless": "^0.2.0",
+    "viem": "^2.21.40"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.7.2"
+  }
+}
